@@ -5,8 +5,6 @@ import "./SimpleToken.sol";
 import "./Pausable.sol";
 import "./SafeMath.sol";
 
-// THIS DEMO DOES NOT HAVE SAFE MATH
-
 contract CrowedSale is Pausable {
     using SafeMath for uint256;
 
